@@ -30,7 +30,7 @@ export default function Navbar(props) {
             
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 p-2">
               <li className="nav-item">
-                <Link className={`nav-link active text-${props.mode==='light'?'dark':'light'}`} aria-current="page" to="/">Home</Link>
+                <Link className={`nav-link text-${props.mode==='light'?'dark':'light'}`} aria-current="page" to="/">Home</Link>
               </li>
               <li className="nav-item">
                 <Link className={`nav-link text-${props.mode==='light'?'dark':'light'}`} to="/about">About</Link>
